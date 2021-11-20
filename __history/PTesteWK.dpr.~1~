@@ -1,0 +1,14 @@
+program PTesteWK;
+
+uses
+  Vcl.Forms,
+  UTeste in 'UTeste.pas' {frmTeste};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TfrmTeste, frmTeste);
+  Application.Run;
+end.
